@@ -11,11 +11,8 @@
 ## Project Structure
 
 - ./
-    - .terraform.lock.hcl
     - 0-var.tf
     - 1-auth.tf
-    - 10-iam.tf
-    - 11-runtime.tf
     - 2-vpc.tf
     - 3-subnet.tf
     - 4-router.tf
@@ -24,26 +21,7 @@
     - 7-cluster.tf
     - 8-nodepool.tf
     - 9-storage.tf
-    - key.json
-    - kubeconfig.txt
+    - 10-iam.tf
+    - 11-runtime.tf
     - tfvars-template
-    - tree.py
-    - .terraform/
-        - terraform.tfstate
-        - providers/
-            - registry.terraform.io/
-                - hashicorp/
-                    - google/
-                        - 5.25.0/
-                            - windows_amd64/
-                                - terraform-provider-google_v5.25.0_x5.exe
-                    - local/
-                        - 2.5.2/
-                            - windows_amd64/
-                                - LICENSE.txt
-                                - terraform-provider-local_v2.5.2_x5.exe
-                    - null/
-                        - 3.2.3/
-                            - windows_amd64/
-                                - LICENSE.txt
-                                - terraform-provider-null_v3.2.3_x5.exe
+    
