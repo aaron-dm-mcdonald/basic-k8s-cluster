@@ -1,0 +1,3 @@
+zone        = "us-central1-a"
+project     = "sandbox-project-primary"
+machine-type = "n2-standard-4"
