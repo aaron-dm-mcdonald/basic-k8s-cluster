@@ -1,4 +1,9 @@
-# Reorganize Kubernetes Infrastructure
+# Basic Kubernetes Cluster v2
+
+## Setup
+
+- Add default values for variables in 0-var.tf 
+- Update 1-auth.tf for the service account JSON key and backend info for the bucket 
 
 ## Changes
 1) File Organization
