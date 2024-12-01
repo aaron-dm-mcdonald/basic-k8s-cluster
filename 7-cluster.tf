@@ -18,7 +18,7 @@ logging_config {
 
   addons_config {
     http_load_balancing {
-      disabled = true
+      disabled = false
     }
     horizontal_pod_autoscaling {
       disabled = false
